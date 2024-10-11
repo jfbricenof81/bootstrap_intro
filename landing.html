@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Producto Increíble</a>
+        <!-- Añadir más elementos de navegación aquí -->
+    </div>
+</nav>
+
+<header class="bg-primary text-white text-center py-5">
+    <h1 class="display-4">Descubre nuestro Producto Increíble</h1>
+    <p class="lead">La solución que estabas buscando</p>
+</header>
+
+<main class="container my-5">
+    <section class="row">
+        <div class="col-md-6">
+            <h2>Características</h2>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Característica 1</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Característica 2</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Característica 3</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="producto.jpg" alt="Producto Increíble" class="img-fluid">
+        </div>
+    </section>
+
+    <section class="my-5">
+        <h2 class="text-center mb-4">Video de demostración</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="bg-light p-4 rounded">
+        <h2 class="text-center mb-4">Pre-ordena ahora</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Cantidad</label>
+                <select class="form-select" id="quantity" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Pre-ordenar</button>
+        </form>
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Producto Increíble. Todos los derechos reservados.</p>
+</footer>
+
+
+
+<script src="js/bootstrap.min.js  "></script>
+<script src="js/bootstrap.bundle.min.js  "></script>
+
+    
+</body>
+
+</html>
